@@ -1,0 +1,16 @@
+VAR
+	fb_controller_1 : FB_Regulator;
+	fb_controller_2 : FB_Regulator;
+	fb_controller : FB_Regulator;
+	fb_motor : FB_Motor;
+	Speed : REAL := 10;
+	Enable : BOOL := FALSE;
+	feedback_1 : REAL;
+	feedback_2 : REAL;
+	feedback : REAL;
+	feedback_without_con : REAL;
+	counter : USINT;
+	fb_motor_1 : FB_Motor;
+	fb_motor_2 : FB_Motor;
+	fb_motor_without_con : FB_Motor;
+END_VAR
